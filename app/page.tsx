@@ -21,16 +21,17 @@ export default function Home() {
       <p style={{ color: '#8C6F5E', fontSize: '18px' }}>
         Ton bien-être, simplement.
       </p>
-      <div style={{
-        background: '#4A3728',
-        color: '#F5EFE6',
-        padding: '14px 32px',
-        borderRadius: '100px',
-        fontSize: '14px',
-        cursor: 'pointer'
-      }}>
-        Découvrir →
-      </div>
+    <a href="/explorer" style={{
+  background: '#4A3728',
+  color: '#F5EFE6',
+  padding: '14px 32px',
+  borderRadius: '100px',
+  fontSize: '14px',
+  cursor: 'pointer',
+  textDecoration: 'none'
+}}>
+  Découvrir →
+</a>
     </main>
   )
 }
